@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>new-register</title>
+    <link rel="icon" type="image/png" href="img/logo.png">
+    <link rel="stylesheet" href="css/bootstrap-rtl.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/intlTelInput.css">
+    <link rel="stylesheet" href="css/select2.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="">
+    <!--============================== start header ===========================-->
+    <header class="header">
+        <div class="top-header">
+            <div class="container">
+                <div class="inner">
+                    <div class="icons">
+                        حمل التطبيق الأن
+                        <a href="" target="_blank"><i class="fab fa-android"></i></a>
+                        <a href="" target="_blank"><i class="fab fa-apple"></i></a>
+                    </div>
+                    <div class="drop-down-section">
+                        <div class="dropdown lang">
+                            <button class="" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                                aria-expanded="false">
+                                <i class="fas fa-globe"></i>
+                                عربى
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item lang-en" href="#">
+                                    <img src="img/united-kingdom.png" alt="">
+                                    EN</a>
+                            </div>
+                        </div>
+                        <!-- <div class="dropdown lang location-ar">
+                            <button class="" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                                aria-expanded="false">
+                                <i class="fas fa-map-marker-alt"></i>
+                                مدينة الطائف
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">test</a>
+                                <a class="dropdown-item" href="#">test</a>
+                            </div>
+                        </div> -->
+                        <div class="lang location-ar">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <select>
+                                <option value="1">Some option</option>
+                                <option value="2">Another option</option>
+                                <option value="3">A disabled option</option>
+                                <option value="4">Potato</option>
+                            </select>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="nav-header">
+                <a href="index.html" class="logo">
+                    <img src="img/logo.png" alt="">
+                </a>
+                <ul class="nav-links">
+                    <li>
+                        <a href="index.html" class="link active">الرئيسية</a>
+                    </li>
+                    <li>
+                        <a href="buildings.html" class="link">العقارات</a>
+                    </li>
+                    <li>
+                        <a href="about.html" class="link">من نحن</a>
+                    </li>
+                    <li>
+                        <a href="contact.html" class="link">تواصل معنا</a>
+                    </li>
+                </ul>
+                <div class="left">
+                    <a href="login.html" class="sign-link">
+                        <i class="fas fa-sign-in-alt sign-icon"></i>
+                        <span>تسجيل دخول / جديد</span>
+                    </a>
+                    <button class="nav-btn"><span></span><span></span><span></span></button>
+                </div>
+            </div>
+        </div>
+        <div class="nav-overlay"></div>
+    </header>
+
+    <!--============================ end-header ================================-->
+
+    <!-- ============================ start content ========================== -->
+    <section class="content">
+
+        <!-- banner- section -->
+        <div class="banner-section banner-show" style="background-image: url(img/banner-home.png);">
+            <div class="container">
+                <div class="info">
+                    <p class="title">
+                        تسجيل جديد
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-section">
+            <div class="container">
+                <div class="links-tabs">
+                    <nav class="nav-links">
+                        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                            <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home"
+                                role="tab" aria-controls="nav-home" aria-selected="true">فرد</a>
+                            <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile"
+                                role="tab" aria-controls="nav-profile" aria-selected="false">شركة / مؤسسة</a>
+                        </div>
+                    </nav>
+                </div>
+
+                <div class="tab-content" id="nav-tabContent">
+                    <!-- first tab -->
+                    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+
+                        <form action="account-confirmation.html" class="main-form">
+
+                            <div class="form-group input-text">
+                                <label for="" class="label">اسم المستخدم</label>
+                                <input type="text" placeholder="أحمد محمد">
+                            </div>
+
+                            <div class="form-group input-text">
+                                <label for="" class="label">رقم الجوال</label>
+                                <input type="number" placeholder="0545123723">
+                            </div>
+
+                            <div class="form-group location-input location-with-icon">
+                                <label for="" class="label">العنوان</label>
+                                <input type="text" readonly="" id="" class="bg-transparent  form-control address"
+                                    data-toggle="modal" data-target="#staticBackdrop">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+
+                            <div class="form-group input-text">
+                                <label for="" class="label">رقم التصريح</label>
+                                <input type="number" placeholder="0545123723">
+                            </div>
+
+                            <div class="form-group password-group input-text">
+                                <label for="" class="label">كلمة المرور</label>
+                                <input type="password" class="input" placeholder="ادخل كلمة المرور">
+                                <i class="far fa-eye"></i>
+                            </div>
+
+                            <div class="form-group password-group input-text">
+                                <label for="" class="label">تأكيد كلمة المرور</label>
+                                <input type="password" class="input" placeholder="ادخل كلمة المرور">
+                                <i class="far fa-eye"></i>
+                            </div>
+
+                            <div class="accept-check">
+                                <label class="radio-btn">
+                                    <input type="checkbox" name="radio-first" class="radio-check d-none" placeholder=""
+                                        checked="">
+                                    <div class="check-inner">
+                                        <span><i class="fas fa-check"></i></span>
+                                        <p class="hint">بالتسجيل في الموقع فأنت موافق علي <a
+                                                href="terms-and-conditions.html">الشروط
+                                                والأحكام</a></p>
+                                    </div>
+                                </label>
+                            </div>
+
+                            <button class="continue-btn">تسجيل</button>
+
+                            <p class="register-now">هل لديك حساب ؟ <a href="">سجل دخولك</a></p>
+                        </form>
+                    </div>
+
+                    <!-- second tab -->
+                    <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                        <form action="account-confirmation.html" class="main-form">
+                            <div class="form-group input-text">
+                                <label for="" class="label">اسم المنشأة</label>
+                                <input type="text" placeholder="أحمد مكاوي">
+                            </div>
+
+                            <div class="form-group input-text">
+                                <label for="" class="label">رقم الجوال</label>
+                                <input type="number" placeholder="0545123723">
+                            </div>
+
+                            <div class="form-group location-input location-with-icon">
+                                <label for="" class="label">العنوان</label>
+                                <input type="text" readonly="" id="" class="bg-transparent form-control address2"
+                                    data-toggle="modal" data-target="#staticBackdrop2">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+
+                            <div class="form-group input-text">
+                                <label for="" class="label">رقم السجل التجاري</label>
+                                <input type="number" placeholder="0545123723">
+                            </div>
+
+                            <div class="form-group input-text">
+                                <label for="" class="label">اسم المالك </label>
+                                <input type="text" placeholder="أوامر الشبكة">
+                            </div>
+
+                            <div class="form-group password-group input-text">
+                                <label for="" class="label">كلمة المرور</label>
+                                <input type="password" class="input" placeholder="ادخل كلمة المرور">
+                                <i class="far fa-eye"></i>
+                            </div>
+
+                            <div class="form-group password-group input-text">
+                                <label for="" class="label">تأكيد كلمة المرور</label>
+                                <input type="password" class="input" placeholder="ادخل كلمة المرور">
+                                <i class="far fa-eye"></i>
+                            </div>
+
+                            <div class="accept-check">
+                                <label class="radio-btn">
+                                    <input type="checkbox" name="radio-first" class="radio-check d-none" placeholder=""
+                                        checked="">
+                                    <div class="check-inner">
+                                        <span><i class="fas fa-check"></i></span>
+                                        <p class="hint">بالتسجيل في الموقع فأنت موافق علي <a
+                                                href="terms-and-conditions.html">الشروط
+                                                والأحكام</a></p>
+                                    </div>
+                                </label>
+                            </div>
+
+                            <button class="continue-btn">تسجيل</button>
+
+                            <p class="register-now">هل لديك حساب ؟ <a href="">سجل دخولك</a></p>
+                        </form>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+    <!--======================== end content ================================-->
+
+    <!--========================= start footer ===============================-->
+    <footer class="footer">
+        <div class="footer-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-3 col-sm-12">
+                        <div class="img-footer">
+                            <a href="index.html" class="footer-logo">
+                                <img src="img/footer-logo.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-3 col-sm-12">
+                        <p class="foot-title">روابط سريعة</p>
+                        <div class="links">
+                            <a href="index.html" class="link">الرئيسية</a>
+                            <a href="about.html" class="link">من نحن</a>
+                            <a href="contact.html" class="link">تواصل معنا</a>
+                            <a href="login.html" class="link">تسجيل الدخول</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-3 col-sm-12">
+                        <p class="foot-title">روابط سريعة</p>
+                        <div class="links">
+                            <a href="bank-accounts.html" class="link">الحسابات البنكية</a>
+                            <a href="usage-policy.html" class="link">سياسة الاستخدام</a>
+                            <a href="terms-and-conditions.html" class="link">الشروط والأحكام</a>
+                            <a href="direct-owner.html" class="link">حسابي</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-3 col-sm-12">
+                        <p class="foot-title">تواصل معنا</p>
+                        <div class="links">
+                            <a href="#" class="link">الرياض - المملكة العربية السعودية</a>
+                            <a href="#" class="link">+966545123723</a>
+                            <a href="#" class="link">info@aait.sa</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copy-right">
+            <div class="container">
+                <p class="right">جميع الحقوق محفوظة لموقع اشعار</p>
+                <p class="left">تصميم وبرمجة أوامر الشبكة</p>
+            </div>
+        </div>
+    </footer>
+    <!--========================== end footer ================================-->
+
+    <!-- animation-loader -->
+    <div class="loder">
+        <img src="img/logo-right.png" class="first-img" alt="">
+        <img src="img/top-text-logo.png" class="sec-img" alt="">
+        <img src="img/bottom-text-logo.png" class="third-img" alt="">
+        <div class="parent-animate">
+        </div>
+    </div>
+
+    <!-- map modal -->
+    <div class="location">
+        <!-- Modal -->
+        <div class="modal fade maxvh topz overflow-hidden" id="staticBackdrop" data-backdrop="static"
+            data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="map">
+
+                            <div class="form-group">
+                                <div id="map" style=" height: 400px;"></div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">اغلاق</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- map modal2 -->
+    <div class="location">
+        <!-- Modal -->
+        <div class="modal fade maxvh topz overflow-hidden" id="staticBackdrop2" data-backdrop="static"
+            data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel2" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="map">
+
+                            <div class="form-group">
+                                <div id="map2" style=" height: 400px;"></div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">اغلاق</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap-rtl.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/select2.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js"></script>
+    <script type="text/javascript"
+        src='https://maps.google.com/maps/api/js?sensor=false&libraries=places&key=AIzaSyA9_ve_oT3ynCaAF8Ji4oBuDjOhWEHE92U'></script>
+    <script src="js/main.js"></script>
+    <script>
+        new WOW().init();
+        $(document).ready(function () {
+            $('select').niceSelect();
+        })
+    </script>
+
+    <script>
+        var map;
+        var marker;
+        var myLatlng = new google.maps.LatLng(24.774265, 46.738586);
+        var geocoder = new google.maps.Geocoder();
+        var infowindow = new google.maps.InfoWindow();
+
+
+
+        function initMap1() {
+
+
+            var mapOptions = {
+                zoom: 10,
+                center: myLatlng,
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+            };
+
+            map = new google.maps.Map(document.getElementById("map"), mapOptions);
+
+            marker = new google.maps.Marker({
+                map: map,
+                position: myLatlng,
+                draggable: true
+            });
+
+            geocoder.geocode({ 'latLng': myLatlng }, function (results, status) {
+                if (status == google.maps.GeocoderStatus.OK) {
+                    if (results[0]) {
+                        $('#latitude,#longitude').show();
+                        $('.address').val(results[0].formatted_address);
+                        $('#resultAddress').val(results[0].formatted_address);
+                        $('#latitude').val(marker.getPosition().lat());
+                        $('#longitude').val(marker.getPosition().lng());
+                        infowindow.setContent(results[0].formatted_address);
+                        infowindow.open(map, marker);
+                    }
+                }
+            });
+
+            google.maps.event.addListener(marker, 'dragend', function () {
+
+                geocoder.geocode({ 'latLng': marker.getPosition() }, function (results, status) {
+                    if (status == google.maps.GeocoderStatus.OK) {
+                        if (results[0]) {
+                            $('.address').val(results[0].formatted_address);
+                            $('#resultAddress').val(results[0].formatted_address);
+                            $('#lat').val(marker.getPosition().lat());
+                            $('#lng').val(marker.getPosition().lng());
+                            infowindow.setContent(results[0].formatted_address);
+                            infowindow.open(map, marker);
+                        }
+                    }
+                });
+            });
+
+        }
+
+
+
+        
+
+        var map2;
+        var marker2;
+        var myLatlng2 = new google.maps.LatLng(24.774265, 46.738586);
+        var geocoder2 = new google.maps.Geocoder();
+        var infowindow2 = new google.maps.InfoWindow();
+
+
+
+        function initMap2() {
+
+
+            var mapOptions = {
+                zoom: 10,
+                center: myLatlng2,
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+            };
+
+            map2 = new google.maps.Map(document.getElementById("map2"), mapOptions);
+
+            marker2 = new google.maps.Marker({
+                map: map2,
+                position: myLatlng2,
+                draggable: true
+            });
+
+            geocoder2.geocode({ 'latLng': myLatlng2 }, function (results, status) {
+                if (status == google.maps.GeocoderStatus.OK) {
+                    if (results[0]) {
+                        $('#latitude,#longitude').show();
+                        $('.address2').val(results[0].formatted_address);
+                        $('#resultAddress').val(results[0].formatted_address);
+                        $('#latitude').val(marker2.getPosition().lat());
+                        $('#longitude').val(marker2.getPosition().lng());
+                        infowindow2.setContent(results[0].formatted_address);
+                        infowindow2.open(map2, marker2);
+                    }
+                }
+            });
+
+            google.maps.event.addListener(marker2, 'dragend', function () {
+
+                geocoder2.geocode({ 'latLng': marker2.getPosition() }, function (results, status) {
+                    if (status == google.maps.GeocoderStatus.OK) {
+                        if (results[0]) {
+                            $('.address2').val(results[0].formatted_address);
+                            $('#resultAddress').val(results[0].formatted_address);
+                            $('#lat').val(marker2.getPosition().lat());
+                            $('#lng').val(marker2.getPosition().lng());
+                            infowindow2.setContent(results[0].formatted_address);
+                            infowindow2.open(map2, marker2);
+                        }
+                    }
+                });
+            });
+
+        }
+
+
+        google.maps.event.addDomListener(window, 'load', initMap1);
+
+        google.maps.event.addDomListener(window, 'load', initMap2);
+
+
+    </script>
+</body>
+
+</html>
